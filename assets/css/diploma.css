@@ -6,7 +6,7 @@
     border: 50px solid transparent;
     padding: 8px;
     border-image: url("../images/border.png") 100 100 stretch;
-    margin: auto;
+    /*     margin: auto; */
 
 }
 
@@ -15,6 +15,12 @@
     src: url('../fonts/EdwardianScriptITC.ttf');
 }
 
+/* #diploma{
+	
+	background-color: white;
+	color: black;	
+	max-width: 10in;
+} */
 
 @media print {  
   @page {
@@ -43,7 +49,9 @@
 	font-family: Times New Roman;
 	font-style: italic;
 	font-weight: bold;
-	word-spacing: 45px;
+/* 	word-spacing: 60px; */
+
+/* 	word-spacing: 45px; */
 	text-align: justify;
 }
 
@@ -52,12 +60,15 @@
 	font-family: EdwardianScriptITC;
 	letter-spacing: 4px;
 	text-align: justify;
+	word-spacing: 60px;
 }
 
 
 #img1{
 	float: left;
-	margin: 10px;
+/*  margin: 30px;
+
+	margin: 10px;*/
 	filter: grayscale(100%);
 	width: 200px;
 	height: 200px;
@@ -66,7 +77,9 @@
 	width: 200px;
 	height: 200px;
 	float: right;
-	margin: 10px;
+/* 	margin: 30px;
+=======
+	margin: 10px; */
 	
 }
 
@@ -166,10 +179,11 @@
 .div-right{
     float:right;
     padding-right:10px;
+
 }
 #mid,div-left,div-right {
 	line-height: 100px;
-}
 
+}
 
 
